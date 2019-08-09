@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/qwikekonstats/static/css/main.cddef56e.chunk.css",
+    "main.js": "/qwikekonstats/static/js/main.2bb8359e.chunk.js",
+    "main.js.map": "/qwikekonstats/static/js/main.2bb8359e.chunk.js.map",
+    "runtime~main.js": "/qwikekonstats/static/js/runtime~main.5dd0e8c2.js",
+    "runtime~main.js.map": "/qwikekonstats/static/js/runtime~main.5dd0e8c2.js.map",
+    "static/js/2.c7118e46.chunk.js": "/qwikekonstats/static/js/2.c7118e46.chunk.js",
+    "static/js/2.c7118e46.chunk.js.map": "/qwikekonstats/static/js/2.c7118e46.chunk.js.map",
+    "index.html": "/qwikekonstats/index.html",
+    "precache-manifest.72602b073c3489f85d49540ed79c6df9.js": "/qwikekonstats/precache-manifest.72602b073c3489f85d49540ed79c6df9.js",
+    "service-worker.js": "/qwikekonstats/service-worker.js",
+    "static/css/main.cddef56e.chunk.css.map": "/qwikekonstats/static/css/main.cddef56e.chunk.css.map",
+    "static/media/App.css": "/qwikekonstats/static/media/desib___-webfont.484a2ad9.woff2"
+  }
+}
