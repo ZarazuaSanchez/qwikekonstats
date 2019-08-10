@@ -1,19 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2dd2e986a7047313cdcafe2c8f058bec",
+    "revision": "57e6f23dd95b54491c8d374916df2c20",
     "url": "/qwikekonstats/index.html"
   },
   {
-    "revision": "62b3f84844b358165fd0",
-    "url": "/qwikekonstats/static/css/main.cddef56e.chunk.css"
+    "revision": "5618de56c1dcc96efa48",
+    "url": "/qwikekonstats/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "cc897aee02dfbae4128c",
-    "url": "/qwikekonstats/static/js/2.c7118e46.chunk.js"
+    "revision": "0158aca168cdea108199",
+    "url": "/qwikekonstats/static/css/main.206161cd.chunk.css"
   },
   {
-    "revision": "62b3f84844b358165fd0",
-    "url": "/qwikekonstats/static/js/main.37b70236.chunk.js"
+    "revision": "5618de56c1dcc96efa48",
+    "url": "/qwikekonstats/static/js/2.d5982a1c.chunk.js"
+  },
+  {
+    "revision": "0158aca168cdea108199",
+    "url": "/qwikekonstats/static/js/main.2872897d.chunk.js"
   },
   {
     "revision": "bee1d8b89ef4b2240e33",
