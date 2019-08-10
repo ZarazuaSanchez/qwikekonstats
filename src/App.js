@@ -57,9 +57,9 @@ class App extends Component {
     let res = undefined;
 
     if (y2) {
-      res = await fetch(`http://api.worldbank.org/v2/country/${country}/indicator/${indicator}?date=${y1}:${y2}&format=json`);
+      res = await fetch(`https://api.worldbank.org/v2/country/${country}/indicator/${indicator}?date=${y1}:${y2}&format=json`);
     } else {
-      res =  await fetch(`http://api.worldbank.org/v2/country/${country}/indicator/${indicator}?date=${y1}&format=json`);
+      res =  await fetch(`https://api.worldbank.org/v2/country/${country}/indicator/${indicator}?date=${y1}&format=json`);
     }
 
     const cjson = await res.json();
@@ -99,13 +99,11 @@ class App extends Component {
           <div className="container">
             <div className="row">
               <div className="col-xs-5 title-form-container">
-                <div className="title-form-group">
-                  <Title />
-                  <Form getStats={this.getStats} />
-                </div>
+                <Title />
+                <Form getStats={this.getStats} />
+                { this.state.error && <div className="err-msg"> {this.state.error} </div>}
               </div>
               <div className="col-xs-7 table-container">
-                { this.state.error && <div> {this.state.error} </div>}
                 { this.state.stats && <StatsTable country={this.state.country} indicator={this.state.indicator} stats={this.state.stats} /> }
               </div>
             </div>

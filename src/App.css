@@ -1,40 +1,79 @@
 
 .wrapper {
-  /* background: linear-gradient(to right, #e67e22, #e74c3c); */
+  background: repeating-linear-gradient(
+    135deg,
+    #E5E7E9,
+    #E5E7E9 10px,
+    #FDFEFE 10px,
+    #FDFEFE 20px
+    );
   height: 100vh;
+  width: 100vw;
   display: flex;
-  justify-content: center;
-  align-items: right;
 }
 
 .main {
   height: 95vh;
-  /* background-color: blue; */
+  /* background-color: white; */
   /* background: #fff; */
-  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
-  width: 95%;
+  /* box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75); */
+  width: 95vw;
   padding: 40px;
   margin: 0 auto;
+
+}
+
+.container {
+  /* background-color: pink; */
+  height: 90vh;
+  width: 90vw;
+  /* box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75); */
   justify-content: center;
-  align-items: right;
+  align-items: center;
 }
 
 .row {
   /* background-color: red; */
-  /* position: relative; */
-  flex-direction: row-reverse;
-  /* white-space: normal; */
-  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
-  width: 90%;
-  justify-content: center;
+  position: relative;
+  flex-direction: row;
+  white-space: normal;
+  /* box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75); */
+  width: 103%;
+  justify-content: right;
   align-items: right;
 }
 
-.container {
-  width: 90%;
-  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
-  justify-content: center;
-  align-items: right;
+.title-form-container {
+  background-color: #0cb08b;
+  height: 85vh;
+  width: 40%;
+  /* justify-content: center; */
+  color: #000;
+  padding-top: 20%;
+  padding-left: 40px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+hgroup {
+  color: white;
+  justify-content: left;
+}
+
+h1 {
+  font-family: "designer_blockregular";
+  line-height: 1.5;
+  /* -webkit-font-smoothing: antialiased; */
+  letter-spacing: 2.2px;
+  font-size: 2.0em;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.3em;
+  font-weight: 700;
 }
 
 @font-face {
@@ -45,52 +84,27 @@
   font-style: normal;
 }
 
-.title-form-container {
-  background-color: #0cb08b;
-  height: 85vh;
-  width: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #000;
-  /* padding-left: 30px; */
-  padding-right: 10px;
-  font-size: 16px;
-  font-weight: 700;
-}
-
 .table-container {
   /* background-color: pink; */
   /* background-color: #2c3e50; */
   height: 85vh;
-  min-width: 61vh;
-  max-height: 90vh;
-  overflow-y: auto;
-}
-
-h1 {
-  font-family: "designer_blockregular";
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  letter-spacing: 1px;
-  font-size: 30px;
-  top: 17px;
+  width: 60%;
+  max-height: 90vw;
+  overflow-y: auto;;
 }
 
 table {
   position: relative;
   right: 0px;
   width: 100%;
-  /* height: 100%; */
 }
 
-hgroup {
-  color: white;
-  justify-content: left;
+.country-title {
+  font-size: 2em;
 }
 
 td, th {
+  width: 23px;
   border: 1px solid rgb(190,190,190);
   background-color: white; /* f7f7f7; */
   border-left:1px solid #ffffff;
@@ -107,10 +121,6 @@ th {
   border-bottom: 1px solid #d6d6d6;
 }
 
-.country-title {
-  font-size: 30px;
-}
-
 td {
   text-align: center;
   padding: .75rem;
@@ -124,13 +134,13 @@ tr:nth-child(even) td {
   border-top: 1px solid #dee2e6;
 }
 
-button {
-  line-height: normal !important;
+form {
+  text-align: left;
 }
 
 select {
   max-width: 320px !important;
-  min-width: 200px;
+  min-width: 60%;
   display: block;
   font-size: 16px;
   font-family: sans-serif;
@@ -156,22 +166,28 @@ select {
 
 }
 
-.yearsGroup {
-  margin-right: 120px;
+.err-msg {
+  color: red;
+  animation: .8s wiggle infinite alternate;
 }
 
-form {
-  text-align: center;
-  margin-right: 8%;
-  display: block;
-
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
 }
 
-.form-row{
-  justify-content: right;
+.select-country, .select-indicator {
+  /* width: 80%; */
+}
+
+.select-year {
+  /* width: 120%; */
 }
 
 Button {
-  margin: 20px;
+  margin: 20px 0;
   display: block;
 }

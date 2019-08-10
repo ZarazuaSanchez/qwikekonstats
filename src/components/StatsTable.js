@@ -18,11 +18,23 @@ class StatsTable extends Component {
 
     var nf = new Intl.NumberFormat();
 
+    var nrows = 2;
+    var desiredNRows = 15;
     for( var y of Object.keys(stats).reverse()){
       let children = [];
       children.push(<td>{y}</td>);
       children.push(<td>{nf.format(stats[y])}</td>);
       table.push(<tr>{children}</tr>);
+      nrows++;
+    }
+
+    if( desiredNRows - nrows < 13){
+      for(var i = nrows; i <= desiredNRows; i++){
+        let children = [];
+        children.push(<td>&nbsp;</td>);
+        children.push(<td>&nbsp;</td>);
+        table.push(<tr>{children}</tr>);
+      }
     }
 
     return table;

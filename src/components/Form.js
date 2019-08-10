@@ -56,31 +56,34 @@ class Form extends React.Component {
     return (
       <form onSubmit={this.props.getStats}>
         <div className="form-row">
-          <div>
-            <label for="country">Country&nbsp;</label>
-            <select name="country">
-              { this.countries() }
-            </select>
-          </div>
+          <label for="country">Country&nbsp;</label>
+        </div>
+        <div className="form-row">
+          <select name="country" class="select-country">
+            { this.countries() }
+          </select>
+        </div>
+        <div className="form-row">
+          <label>Indicator&nbsp;</label>
         </div>
         <div className="form-row">
           <SelectIndicator />
         </div>
         <div className="form-row">
-          <div>
-            <label for="startYear">Start Year&nbsp;</label>
-            <select name="startYear" className="select-year yearsGroup">
-              { this.years1() }
-            </select>
-          </div>
+          <label for="startYear">Start Year&nbsp;</label>
         </div>
         <div className="form-row">
-          <div>
-            <label for="endYear">End Year&nbsp;</label>
-            <select name="endYear" className="select-year yearsGroup">
-              { this.years2() }
-            </select>
-          </div>
+          <select name="startYear" className="select-year yearsGroup">
+            { this.years1() }
+          </select>
+        </div>
+        <div className="form-row">
+          <label for="endYear">End Year&nbsp;</label>
+        </div>
+        <div className="form-row">
+          <select name="endYear" className="select-year yearsGroup">
+            { this.years2() }
+          </select>
         </div>
         <Button color="primary">Get Stats</Button>
       </form>
