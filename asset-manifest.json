@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa917bac.chunk.css",
-    "main.js": "/static/js/main.b3195e48.chunk.js",
-    "main.js.map": "/static/js/main.b3195e48.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.266e55a5.chunk.css": "/static/css/2.266e55a5.chunk.css",
-    "static/js/2.d5982a1c.chunk.js": "/static/js/2.d5982a1c.chunk.js",
-    "static/js/2.d5982a1c.chunk.js.map": "/static/js/2.d5982a1c.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.6f970da7c8b71dcb69ea154af5372d93.js": "/precache-manifest.6f970da7c8b71dcb69ea154af5372d93.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.266e55a5.chunk.css.map": "/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.fa917bac.chunk.css.map": "/static/css/main.fa917bac.chunk.css.map",
-    "static/media/App.css": "/static/media/desib___-webfont.484a2ad9.woff2"
+    "main.css": "/qwikekonstats/static/css/main.206161cd.chunk.css",
+    "main.js": "/qwikekonstats/static/js/main.2f21de56.chunk.js",
+    "main.js.map": "/qwikekonstats/static/js/main.2f21de56.chunk.js.map",
+    "runtime~main.js": "/qwikekonstats/static/js/runtime~main.5dd0e8c2.js",
+    "runtime~main.js.map": "/qwikekonstats/static/js/runtime~main.5dd0e8c2.js.map",
+    "static/css/2.266e55a5.chunk.css": "/qwikekonstats/static/css/2.266e55a5.chunk.css",
+    "static/js/2.d5982a1c.chunk.js": "/qwikekonstats/static/js/2.d5982a1c.chunk.js",
+    "static/js/2.d5982a1c.chunk.js.map": "/qwikekonstats/static/js/2.d5982a1c.chunk.js.map",
+    "index.html": "/qwikekonstats/index.html",
+    "precache-manifest.842cab0053db076168f28973d2c70bf7.js": "/qwikekonstats/precache-manifest.842cab0053db076168f28973d2c70bf7.js",
+    "service-worker.js": "/qwikekonstats/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/qwikekonstats/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.206161cd.chunk.css.map": "/qwikekonstats/static/css/main.206161cd.chunk.css.map",
+    "static/media/App.css": "/qwikekonstats/static/media/desib___-webfont.484a2ad9.woff2"
   }
 }
